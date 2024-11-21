@@ -1,15 +1,9 @@
 public class Main {
     public static void main(String[] args) {
+        int price = 13_676;
 
-        int x = 10000;
-        if(x > 20) {
-            System.out.println("вам начислен бонус в размере");
+        int miles = price / 20;
+        System.out.println("Бонусных миль: " + miles);
+        
         }
-        int y = 20;
-
-        int bonus = x / y ;
-        System.out.println(bonus);
-        System.out.println("миль");
-
-    }
 }
